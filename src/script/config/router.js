@@ -1,5 +1,5 @@
 'use strict';
-angular.module('app',['ui.router']).config(['$stateProvider','$urlRouterProvider',
+angular.module('app').config(['$stateProvider','$urlRouterProvider',
 	function($stateProvider,$urlRouterProvider) {
 	$stateProvider.state('main',{
 		url:'/main',

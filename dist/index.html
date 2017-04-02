@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html ng-app="app">
+<meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=no">
 <head>
 	<title>fengmeiru</title>
-	<meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=no">
+            <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 	<div ui-view></div>
 </body>
+<script>
+    document.getElementsByTagName('html')[0].style.fontSize = window.screen.width/10 + 'px';
+</script>
 <script type="text/javascript" src="vendor/angular/angular.min.js"></script>
 <script type="text/javascript" src="vendor/angular-ui-router/release/angular-ui-router.min.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
