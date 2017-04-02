@@ -1,0 +1,27 @@
+{
+  "name": "myHook",
+  "authors": [
+    "fengmeiru"
+  ],
+  "description": "angularjs webapp",
+  "main": "",
+  "keywords": [
+    "angularjs"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4"
+  },
+  "devDependencies": {
+    "angular-ui-router": "ui-router#^0.4.2"
+  }
+}
